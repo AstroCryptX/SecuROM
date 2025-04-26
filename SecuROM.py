@@ -38,7 +38,7 @@ def show_warning(message, duration=1000):
 
 # Force Shutdown Function
 def force_shutdown():
-    os.system("shutdown /f /t 0")  # Force shutdown immediately, no prompt to cancel
+    os.system("shutdown /s /f /t 0")  # Force shutdown immediately, no prompt to cancel
 
 
 # Delay before checking
